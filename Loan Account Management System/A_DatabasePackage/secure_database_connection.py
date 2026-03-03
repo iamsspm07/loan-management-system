@@ -8,7 +8,7 @@ DB_HOST = "localhost"
 DB_PORT = 5432
 DB_NAME = "loan_management"
 DB_USER = "postgres"
-DB_PASSWORD = quote_plus("Sujitmaity@143")
+DB_PASSWORD = quote_plus("Ozaki8")
 DB_ECHO = False
 
 # DATABASE CONNECTION URL PARAMETERS: POSTGRESQL
@@ -39,4 +39,5 @@ def loan_jwt_database_connection():
         database.close()
 
 # CONNECTING PYTHON CLASS WITH DATABASE TABLE
+
 BASE = declarative_base()
